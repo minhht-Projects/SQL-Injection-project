@@ -1,11 +1,7 @@
 # SQL Injection Demo: Before & After
 
-A minimal Flask + SQLite login form that demonstrates a classic
+A demonstration of a classic
 authentication-bypass SQL injection, and the parameterized-query fix for it.
-
-**For local, educational use only.** Run this on your own machine against
-your own local database — never against a system you don't own or have
-explicit permission to test.
 
 ## Setup
 
