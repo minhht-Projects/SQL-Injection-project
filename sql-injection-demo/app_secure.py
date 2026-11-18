@@ -1,7 +1,5 @@
 """
-SECURE login demo — the fix for app_vulnerable.py.
-Uses a parameterized query (placeholders + bound values), so user input
-is always treated as data, never as part of the SQL syntax.
+SECURE login demo
 
 Run:
     python init_db.py          (if you haven't already)
