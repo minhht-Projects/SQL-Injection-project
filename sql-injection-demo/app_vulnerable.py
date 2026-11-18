@@ -1,7 +1,5 @@
 """
-VULNERABLE login demo — for local educational use only.
-Builds the SQL query via string formatting, so user input is
-interpreted as SQL instead of plain data. Classic SQL Injection (SQLi).
+VULNERABLE login demo
 
 Run:
     python init_db.py
@@ -11,7 +9,7 @@ Then visit http://127.0.0.1:5000/login
 Try logging in with:
     username: ' OR '1'='1' --
     password: anything
-(the trailing "--" matters — see README.md for why)
+(the trailing "--" matters — see README.md )
 """
 
 import sqlite3
